@@ -9,6 +9,6 @@ export class UserRepository {
   }
 
   public async createUser(user: UserRequestDto): Promise<IUser> {
-    return await this.db.create(user)
+    return this.db.create(user)
   }
 }
