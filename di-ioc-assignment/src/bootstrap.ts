@@ -16,3 +16,5 @@ export class UserRepository {
 
 export class UserService {}
 export class UserController {}
+
+export const container = new Container()
