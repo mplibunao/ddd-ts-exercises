@@ -9,7 +9,8 @@
     "build": "tsc",
     "test:watch": "jest --watch --verbose",
     "lint": "eslint . --ext .ts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "gen:types": "npx gen-env-types .env"
   },
   "license": "MIT",
   "dependencies": {
